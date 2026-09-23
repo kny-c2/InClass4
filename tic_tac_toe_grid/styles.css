@@ -1,0 +1,34 @@
+body {
+   font-family: Roboto, Helvetica, sans-serif;
+   text-align: center;
+}
+
+.x {
+   color: red;
+}
+
+.o {
+   color: blue;
+ }
+ 
+#board {
+   font: 85px arial, sans-serif;
+   margin: 3px;
+   
+   /* Your solution goes here */    
+   display: grid;
+   grid-template-columns: 100px 100px 100px;
+   gap: 10px;  
+   justify-content: center;
+
+}
+
+#board > div {
+   border: 2px solid rgb(18, 75, 110);
+   text-align: center;
+   background-color: rgb(244, 251, 255);
+}
+
+#board > div:hover {
+   transform: scale(1.04);
+}
